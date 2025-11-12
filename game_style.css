@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 95vh;
+}
+.window{
+    width:500px;
+    text-align: center;
+    box-shadow: 4px 4px 10px 0.5px gray, 4px 4px 30px 0.5px gray ;
+    border-radius: 12px;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+hr{
+    width:400px;
+    border-top: 1px gray;
+}
+
+button.power{
+    background-color: #4039B8;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:x-small;
+    color: white;
+    text-shadow: 0.2px 0.2px gray;
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+}
+
+button:hover{
+    background-color: #352CA0;
+}
